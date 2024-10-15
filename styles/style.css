@@ -1,0 +1,42 @@
+/* style.css */
+body {
+    background-image: url('../images/background.jpg');
+    background-size: cover; /* Cover entire background */
+    background-position: center; /* Center the image */
+    color: #333; /* Default text color */
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent navbar */
+}
+
+h1, h5 {
+    color: #fff; /* White color for headers */
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white for cards */
+}
+
+.table {
+    background-color: #fff; /* White background for the table */
+    border-radius: 5px;
+}
+
+.table th, .table td {
+    text-align: center;
+}
+
+.alert {
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+}
